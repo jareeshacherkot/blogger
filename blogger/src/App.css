@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f7fa;
+}
+
+.app {
+  text-align: center;
+}
+
+.header {
+  background: linear-gradient(135deg, #f77680, #764ba2);
+  color: white;
+  padding: 40px 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.header p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.blog-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+}
+
+.card {
+  background: linear-gradient(135deg, #f77680, #764ba2);
+  width: 300px;
+  margin: 20px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.date {
+  font-size: 14px;
+  color: rgb(21, 17, 17);
+}
+
+.author {
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.card button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #667eea;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #5a67d8;
+}
+
+.footer {
+  background: linear-gradient(135deg, #f77680, #764ba2);
+  color: white;
+  padding: 20px;
+  margin-top: 30px;
+}
