@@ -10,6 +10,7 @@ import Ux from "./assets/Components/pages/Ui/Ux"
 import Dataanalyst from "./assets/Components/pages/Ui/Dataanalyst";
 import Graphicss from "./assets/Components/pages/Ui/Graphicss";
 import Datascience from "./assets/Components/pages/Ui/Datascience";
+import Header from "./assets/Components/Header";
 
 function Home() {
 
@@ -126,6 +127,7 @@ function Home() {
 
 function App() {
   return (
+
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -140,6 +142,7 @@ function App() {
         <Route path="/blog8" element={<Datascience/>}/>
       </Routes>
     </BrowserRouter>
+    
   );
 }
 
